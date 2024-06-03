@@ -603,6 +603,11 @@ background-color: #272358
     nav{
         width: 100%;
     }
+    nav .title{
+    color: var(--main-color);
+  
+    font-size: 1.72rem;
+    }
     .menu-btn i{
         display: block;
     }
