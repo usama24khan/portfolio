@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  
+</head>
+<body>
+    <header id="header">
+    <!-- ----------------------Navbar-------------------------- -->
+    
+    <nav>
+        <div class="title">
+            <h1>Portfolio</h1>
+
+        </div>
+        <div class="links">
+            <ul class="menu">
+                <li><a href="#header" class="active link-btn ">Home</a></li>
+                <li><a href="#about-section" class="link-btn">About</a></li>
+                <li><a href="#services" class="link-btn">Services</a></li>
+                <li><a href="#portfolio" class="link-btn">Portfolio</a></li>
+                <li><a href="#contact" class="link-btn">Contact</a></li>
+                <div class="theme">
+                    <i onclick="dark()"  class="fa-solid fa-moon"></i></div>
+                    
+                
+               
+            </ul>
+            
+        </div>
+        <div class="menu-btn">
+        <i onclick="burger()" class="fa-solid fa-bars burger" ></i>
+    </div>
+        
+
+    </nav>
+    <!-- ------------------------------Main- landing page---------------------------------- -->
+
+    <main>
+        <div class="landing-container">
+            <h3>Hello, i am</h3>
+            <h1>Usama Khan</h1>
+            <p>I am a web Frontend Web developer. Explore my projects and learn more about my journey as a web developer.</p>
+            <div class="icons">
+                <a href="https://web.facebook.com/usama440" target="_blank"><span><i class="fa-brands fa-facebook"></i></span></a>
+                <a href="https://www.linkedin.com/in/usama-khan-3158101ab/" target="_blank">  <span><i class="fa-brands fa-linkedin"></i></span></a>
+              <a href="https://x.com/usama61183838">  <span><i class="fa-brands fa-twitter"></i></span></a>
+
+            </div>
+            <button class="btn download">
+            <a href="ResumeForWebDevelopement.pdf" download=""> Download CV</a>
+               </button>
+        </div>
+    <!-- ---------------------------Main picture ---------------------------- -->
+        <div class="landing-pic">
+           
+                <img src="images/mianImg.png" alt="">
+            
+            <div class="overlay"></div>
+            <div class="skills-box">
+                <div class="skill" style="--i:0;">
+                    <i class="fa-solid fa-code light"></i>
+                    <h3>Web Developer</h3>
+                    </div>
+                <div class="skill" style="--i:1;">
+                    <i class="fa-brands fa-react"></i>
+                    <h3>React Developer </h3>
+                    </div>
+                <div class="skill" style="--i:2;">
+                    <i class="fa-solid fa-globe"></i>
+                    <h3>Network Engineer</h3>
+                    </div>
+                    <div class="skill" style="--i:3;">
+                        <i class="fa-solid fa-palette"></i>
+                    <h3>Web Designer</h3>
+                    </div>
+                    <div class="circle"></div>
+                
+            </div>
+        </div>  
+    </main>
+
+</header>
+<!-- --------------------------About Section---------------------------- -->
+<section id="about-section" >
+    <div  class="about">
+        <div class="overlay2"></div>
+        <div class="about-img"><img src="images/img2.png" alt=""></div>
+        <div class="about-content">
+            <h1>About <span>Me</span></h1>
+            <p>Hi, I'm Usama Khan, a passionate web developer with a Bachelor's degree in Information Technology (BSIT) and a CCNA certification from Corvit College, Lahore. I specialize in creating dynamic and responsive single-page applications using modern web technologies.
+
+            </p>
+            <p>I am a dedicated web developer with expertise in HTML, CSS, JavaScript, Bootstrap, React.js, and Next.js. My extensive knowledge in networking, including LAN & WAN implementation, OSI model, and various routing protocols.</p>
+            <button class="btn about-btn"><a href="#contact"> Hire me </a></button>
+        </div>
+    </div>
+
+</section>
+<!-- ---------------------Services -------------------------------- -->
+<section id="services">
+    <h1 id="my-services">My <span>Services</span></h1>
+   <div class="boxes">
+    <div class="box">
+        <h3>Web Development</h3>
+    <p> Responsive Web Design,
+Custom Website Development,
+Frontend Development,
+Website Redesign,
+Single Page Applications (SPAs)
+,Interactive Web Components
+,Animation and Effects,Technical Support and Maintenance.
+    </p>
+    <button class="btn"> <a href="#portfolio"> Explore</a></button>
+    </div>
+    <div class="box">
+        <h3>Network Engineer</h3>
+    <p>Network Design and Implementation,Network Configuration and Optimization,Network Troubleshooting and Diagnostics,VLAN and Subnet Design,Wireless Network Deployment,Network Monitoring and Management,
+    </p>
+    <button class="btn"> <a href="#portfolio"> Explore</a></button>
+    </div>
+    <div class="box">
+        <h3>Single Page Designing</h3>
+   <p>Custom Web Application Development
+,    Responsive UI Development
+ ,   Component-Based UI Development
+  ,  Single Page Application (SPA) Development
+   , Progressive Web App (PWA) Development
+    and API Integration and Backend Integration
+</p>
+
+   <button class="btn"> <a href="#portfolio"> Explore</a></button>
+    </div>
+</div>
+</section>
+<!-- --------------------------------Portfolio---------------------------------- -->
+<section class="portfolio-section">
+    <div id="portfolio">
+        
+        <h2 id="heading">Latest <span> Projects</span></h2>
+        <div class="projects">
+           
+          
+            <div class="project">
+                <h3>Budget App</h3>
+                 <a href="/budget app/index.html">
+                <img class="image" src="Projects/BudjetApp.jpg" alt="">
+            </a>
+                <p>&rarr; Track your income and expenses with ease and precision.</p>
+            </div>
+        
+       
+            <div class="project">
+               <h3>Quiz App</h3>
+
+                <a href="./Quiz App/index.html"><img class="image" src="Projects/QuizAppj.jpg" alt="">
+                </a>
+                <p>&rarr; Interactive quizzes with multiple formats and real-time score tracking.</p>
+            </div>
+       
+        
+            <div class="project">
+                <h3>Personal Portfolio</h3>
+                <a href="#header"><img class="image" src="Projects/portfolioimage.jpg" alt="">
+
+                </a>
+                <p>&rarr; Showcase of my skills, projects, and professional accomplishments online.</p>
+            </div>
+        
+    </div>
+    
+</section>
+<!-- -------------------contact form-------------------
+ -->
+<section id="contact">
+    <div class="contactform">
+        <div class="contact-overlay"></div>
+        <h2 id="contact-heading">Contact <span>Me</span></h2>
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="c229e25e-41e2-4026-b41c-f9cef8a2ac66">
+            <input id="name" name="Name" type="text" placeholder="Name">
+            <input id="email" required name="Email" type="email" placeholder="Email Address">
+            <input id="number" required name="Number" type="number" placeholder="Mobile Number">
+            <input id="Subject" name="Subject" type="text" placeholder="Enter Subject">
+            <textarea name="message" required placeholder="Message" id="message"></textarea>
+            <button  class="btn contact-btn">Send Message</button>
+
+
+
+        </form>
+    </div>
+</section>
+<footer id="footer">
+<div class="contact-us">
+    <h3>Contact <span> Me</span>
+    </h3>
+    <li>Email:usam24khan@gmail.com</li>
+    <li>Phone: 03226576614</li>
+    <li>Address: D Block,khuda ki basti 4, <br> near smart city,Gt Road Lahore</li>
+</div>    
+<div class="quick-links">
+    <h3>Quick <span>Links</span></h3>
+    <li><a href="#header">Home</a></li>
+    <li><a href="#about-section">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#contact">Contact</a></li>
+</div>
+<div class="follow-us">
+    <h3>Follow <span> Me</span></h3>
+    <li>
+      <a href="https://www.facebook.com/usama440" target="_blank">  <span><i class="fa-brands fa-facebook"></i></span></a>
+
+    </li>
+    <li>
+       <a href="https://www.linkedin.com/in/usama-khan-3158101ab/" target="_blank"> <span><i class="fa-brands fa-linkedin"></i></span></a>
+
+    </li>
+    <li>
+       <a href="https://x.com/usama61183838" target="_blank"> <span><i class="fa-brands fa-twitter"></i></span></a>
+
+    </li>
+</div>
+
+</footer>
+<div class="rights">
+<p> &copy 2024 Usama Khan. All rights reserved </p>
+</div>
+
+    <script src="script.js"></script>
+   
+</body>
+</html>
