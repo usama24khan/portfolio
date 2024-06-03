@@ -495,8 +495,8 @@ background-color: #272358
         
        }
        .contactform form input::placeholder{
-        color: rgba(0, 0, 0, 0);
-        font-weight: 200;
+        color: black;
+        font-weight: 300;
         letter-spacing: 2px;
        }
        .contactform form textarea{
@@ -515,7 +515,7 @@ background-color: #272358
 
        .contactform form textarea::placeholder{
         color: black;
-        font-weight: 200;
+        font-weight: 300;
         letter-spacing: 2px;
        }
        .contact-overlay{
@@ -706,7 +706,7 @@ background-color: #272358
 
     }
     .menu{
-        height: 310px;
+        height: 280px;
         overflow: hidden;
         transition: all 0.4s ease-in-out;
         display: block;
