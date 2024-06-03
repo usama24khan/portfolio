@@ -706,7 +706,7 @@ background-color: #272358
 
     }
     .menu{
-        height: 260px;
+        height: 400px;
         overflow: hidden;
         transition: all 0.4s ease-in-out;
         display: block;
