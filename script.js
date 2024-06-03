@@ -70,7 +70,7 @@ burger=()=>{
     
   links.classList.add('active-links')
     // menu.style.display= 'block'
-    menu.style.height = '330px'
+    menu.style.height = '400px'
 }
 function cross(){
 menuBtn.innerHTML =`<i onclick="burger()" class="fa-solid fa-bars burger" ></i>`
