@@ -36,6 +36,22 @@ linkBtn.forEach(link=>{
 
     })
 })
+// -----------------------------------------Landing Name---------------------
+let headingName = document.getElementById('name')
+let text = headingName.innerText
+idx= 1
+let showName = ()=>{
+headingName.innerHTML = text.slice(0,idx)
+console.log(headingName.innerHTML)
+console.log(idx)
+idx++;
+if(idx>text.length){
+    idx = 0
+}else{
+setTimeout(showName,300)
+}
+}
+showName()
 //  -----------------------overlay addEventListener for projects-------------
 let imageNode = document.querySelectorAll('.image')
 let imageArray = Array.from(imageNode)
