@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="result">
+        <h3>Available Budget</h3>
+        <span class="budget-plus">+</span>
+        <h1 class="total-budget"></h1>
+        <div class="total-income"><span>Total Income</span> </div><span class="income-lable">Total Income</span>
+        <div class="total-expense"><span>Total Expense</span> </div><span class="expense-lable">Total Expense</span>
+      </div>
+      <div class="input-container">
+      <div class="input-values">
+        <div class="input-options">
+           <select name="" id="select">
+            <option value="+" selected class="options">+</option>
+            <option value="-"  class="options">-</option>
+           </select>
+        </div>
+        <div class="input-des">
+          <input type="text" placeholder="Add Description " id="des" />
+        </div>
+        <div class="input-value"  >
+          <input type="number" placeholder="Cost" id="value" />
+        </div>
+        <div class="add-btn" >
+          <button id="add-btn" >Add</button>
+        </div>
+      </div>
+    </div>
+      <div class="incom-expense">
+        <div class="income">
+          <h1>Incomes</h1>
+          
+          <ul id="income-list">
+           <!-- <li>content <span>12000</span></li> -->
+          </ul>
+     
+        </div>
+        <div class="expense">
+          <h1>Expenses</h1>
+          
+          <ul id="expense-list" >
+            <!-- <li>content <span>12000</span></li> -->
+           
+          </ul>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
