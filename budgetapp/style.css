@@ -237,7 +237,31 @@ ul li span {
     .income, .expense {
         width: 100%;
     }
-
+    .result::before {
+        content: '';
+        background-image: url("https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        opacity: 0.7;
+    }
+    #income-list li{
+        position: relative;
+        }#expense-list li{
+        position: relative;
+        }
+        .del-btn {
+            position: absolute;
+            top: 8px;
+            right: -35px;
+        }
+        
     .incom-expense {
         flex-direction: column;
         height: auto;
@@ -261,7 +285,17 @@ ul li span {
         width: 100%;
         background-image: linear-gradient(rgba(57, 71, 196, 0.603), skyblue);
     }
-
+    
+        #income-list li{
+            position: relative;
+            }#expense-list li{
+            position: relative;
+            }
+            .del-btn {
+                position: absolute;
+                top: 8px;
+                right: -35px;
+            }
     .container {
         height: auto;
     }
@@ -297,10 +331,7 @@ ul li span {
         width: 90%;
     }
 
-    .del-btn {
-        top: 10px;
-        right: 10px;
-    }
+    
 }
 
 @media screen and (max-width: 560px) {
