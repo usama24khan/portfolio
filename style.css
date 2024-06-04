@@ -658,6 +658,10 @@ background-color: #272358
     .boxes{
     margin: 0;
     }
+    .box h3{
+        font-size: 2rem;
+        font-weight: 600;
+    }
     #portfolio{
         display: flex;
         justify-content: start;
