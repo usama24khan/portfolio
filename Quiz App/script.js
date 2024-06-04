@@ -12,7 +12,7 @@ const ques = [
         option2:'Theresa May',
         option3:'David Cameron',
         option4:'Tony Blair',
-        correct:'Boris Jhonson'
+        correct:'Boris Johnson'
     },{
         que: "Which country is the largest producer of coffe in the world",
         option1:'Brazil',
