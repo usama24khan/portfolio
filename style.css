@@ -405,6 +405,7 @@ background-color: #272358
             left: 42%;
             box-shadow: 5px 5px 18px black;
             width: 220px;
+            margin-top:30px;
         } 
         #portfolio h2 span{
             color: var(--main-color);
