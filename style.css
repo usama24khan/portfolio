@@ -747,12 +747,12 @@ background-color: #272358
         color: grey;
         
     }
-    .theme i{
-        margin-left: 53px;
+
+    .theme i {
+        margin-left: 42px;
         border: 1px solid white;
         border-radius: 50%;
-        padding: 3px;
-
+        padding: 8px;
     }
     .theme i:hover{
         color: white;
