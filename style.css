@@ -650,7 +650,7 @@ background-color: #272358
         margin:53px 0;
     }
     #services{
-        height: 450px;
+        height: 100%;
         margin-top: 59px;
         padding: 0;
 
@@ -666,7 +666,7 @@ background-color: #272358
         display: flex;
         justify-content: start;
         align-items: center;
-        height: 660px;
+        height: 100%;
     }
     .projects{
         display: grid;
@@ -674,18 +674,20 @@ background-color: #272358
        grid-template-columns: 1fr 1fr 1fr;
     }
     .portfolio-section{
-        height: 660px;
+        height: 100%;
     }
     .projectOverlay{
         display: none;
     }
-    #portfolio h2{
+   #portfolio h2{
+        margin-top: 20px;
         margin-bottom: 39px;
         border: 2px solid var(--main-color);
-        padding: 12px;
+        padding: 22px;
         position: relative;
+        border-top-left-radius: 123px;
+        border-top-right-radius: 123px;
         left: 0%;
-        border-radius: 12px;
         box-shadow: 5px 5px 18px black;
         width: 220px;
     } 
