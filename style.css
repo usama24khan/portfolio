@@ -346,8 +346,9 @@ background-color: #272358
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap: 52px;
-        margin-top: 180px;
+        gap: 22px;
+         margin-top: 20px;/* ------------change---------------------------*/
+        height: 110vh;  /* ------------change---------------------------*/
     }
     #services h1{
         border: 2px solid var(--main-color);
@@ -397,12 +398,12 @@ background-color: #272358
             justify-content: center;
             text-align: center;
             width: 100%;
-            height: 100%;
+             height: 130vh;
         }
         #portfolio h2{
             margin-bottom: 39px;
             border: 2px solid var(--main-color);
-            padding: 22px;
+            padding: 18px;
             position: relative;
             border-top-left-radius: 123px;
             border-top-right-radius: 123px;
