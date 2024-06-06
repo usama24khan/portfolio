@@ -730,6 +730,9 @@ background-color: #272358
         gap: 1px;
         height: 0;
         color:white;
+         position: relative;
+        top: 42px;
+        right: -80px;
 
 
     }
