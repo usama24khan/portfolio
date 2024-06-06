@@ -88,6 +88,17 @@ burger=()=>{
     // menu.style.display= 'block'
     menu.style.height = '400px'
 }
+// -----------------------------Scroll Reveal------------------------------------
+ScrollReveal({ 
+    reset: true,
+    distance:'80px' ,
+    duration: 1500,
+    delay:200
+});
+ScrollReveal().reveal('.landing-container, .heading' , { origin: 'top' });
+ScrollReveal().reveal('.landing-pic img' , { origin: 'bottom' });
+ScrollReveal().reveal('.about-img' , { origin: 'left' });
+
 function cross(){
 menuBtn.innerHTML =`<i onclick="burger()" class="fa-solid fa-bars burger" ></i>`
 // menu.style.display= 'none'
