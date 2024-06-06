@@ -264,7 +264,7 @@ background-color: #272358
      }
      .skill h3{
         text-shadow: 8px 8px 18px #7b8b9e;
-        font-family: cursive;
+         font-family: "Roboto Slab", serif;
         color: var(--main-color);
         font-weight: 600;
         font-size: 1.1rem;
