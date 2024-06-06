@@ -51,7 +51,10 @@ if(idx>text.length){
 setTimeout(showName,300)
 }
 }
-showName()
+setTimeout(() => {
+    showName()
+}, 1000);
+
 //  -----------------------overlay addEventListener for projects-------------
 let imageNode = document.querySelectorAll('.image')
 let imageArray = Array.from(imageNode)
