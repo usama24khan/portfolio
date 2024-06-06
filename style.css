@@ -628,6 +628,7 @@ background-color: #272358
    .landing-container p{
     padding: 23px;
     font-size: 15px;
+        font-family: "Roboto Slab", serif;
    }
     .burger{
         top: 12px;
@@ -806,6 +807,9 @@ background-color: #272358
             width: 100%;
              margin-top: 120px;
         }
+        .landing-container p{
+             font-family: "Roboto Slab", serif;
+        }
         #header{
             display: flex;
             height: 100%;
@@ -863,6 +867,8 @@ background-color: #272358
         .landing-container{
             margin-top: 100px;
         }
+        .landing-container p{
+             font-family: "Roboto Slab", serif;}
         #about-section{
             height: 100%;
         }
