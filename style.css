@@ -639,7 +639,7 @@ background-color: #272358
     } 
     .cross{
         top: 12px;
-        right: 10px;
+        right: 40px;
         z-index: 3;
         cursor: pointer;
     }
