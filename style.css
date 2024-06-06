@@ -312,6 +312,7 @@ background-color: #272358
         font-size: 2rem;
      }
      .about-content p{
+         margin-top:12px;
         font-size: 1.2rem;
         color: var(--white-color);
         font-weight: 450;
