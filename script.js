@@ -90,7 +90,7 @@ burger=()=>{
   links.classList.add('active-links')
     // menu.style.display= 'block'
     menu.style.height = '400px'
-    menu.style.right = "-80px"
+    menu.style.right = "-20px"
 }
 // -----------------------------Scroll Reveal------------------------------------
 ScrollReveal({ 
