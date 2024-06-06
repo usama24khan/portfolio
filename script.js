@@ -90,6 +90,7 @@ burger=()=>{
   links.classList.add('active-links')
     // menu.style.display= 'block'
     menu.style.height = '400px'
+    menu.style.right = "-80px"
 }
 // -----------------------------Scroll Reveal------------------------------------
 ScrollReveal({ 
@@ -106,4 +107,5 @@ function cross(){
 menuBtn.innerHTML =`<i onclick="burger()" class="fa-solid fa-bars burger" ></i>`
 // menu.style.display= 'none'
 menu.style.height= '0px'
+    menu.style.right = "-250px "
 }
